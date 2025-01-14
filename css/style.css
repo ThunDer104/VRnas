@@ -1421,7 +1421,7 @@ body {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   .service__cards {
     grid-template-columns: 1fr;
   }
