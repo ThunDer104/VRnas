@@ -127,7 +127,7 @@ body {
   font-weight: 300;
 }
 
-.header__item--tick::after {
+.header__item--tick::before {
   content: url(../img/icons/tick.svg);
   position: absolute;
   right: -12px;
@@ -1126,6 +1126,7 @@ body {
 }
 
 @media (max-width: 1400px) {
+  body {}
 
   .arcticle {
     min-height: 1445px;
@@ -1349,7 +1350,7 @@ body {
     padding-left: 10px;
   }
 
-  .header__item--tick::after {
+  .header__item--tick::before {
     right: 25px;
   }
 
