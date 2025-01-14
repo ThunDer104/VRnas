@@ -4,6 +4,9 @@
   margin: 0;
   border: none;
   box-sizing: border-box;
+  appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none;
 }
 a, a:visited, a:hover {
   text-decoration: none;
@@ -53,6 +56,9 @@ button::-moz-focus-inner {
   border: none;
 }
 
+select {
+  background: transparent;
+}
 label {
   cursor: pointer;
 }
