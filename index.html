@@ -7,6 +7,7 @@
   <title>VRNas - Home</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./splide-4.1.3/dist/css/splide.min.css">
+  <link rel="stylesheet" href="./css/hover.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -14,18 +15,32 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <a class="logo" href="#!"><img src="./img/icons/logo.png" alt=""></a>
+        <a class="logo header__logo" href="#!"><img src="./img/icons/logo.png" alt=""></a>
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item"><a href="https://aroken.ru" class="header__item-link">Home</a></li>
             <li class="header__item"><a href="https://aroken.ru" class="header__item-link">About us</a></li>
             <li class="header__item"><a href="https://aroken.ru" class="header__item-link">Service</a></li>
-            <li class="header__item header__item--tick"><a href="https://aroken.ru" class="header__item-link">Page</a></li>
-            <li class="header__item header__item--tick"><a href="https://aroken.ru" class="header__item-link">Blog</a></li>
+            <li class="header__item header__item--tick">
+              <select href="https://aroken.ru" class="header__item-select">
+                <option value="11">Page</option>
+                <option value="11">Page</option>
+                <option value="11">Page</option>
+                <option value="11">Page</option>
+              </select>
+            </li>
+            <li class="header__item header__item--tick">
+              <select href="https://aroken.ru" class="header__item-select">
+                <option value="11">Blog</option>
+                <option value="11">Blog</option>
+                <option value="11">Blog</option>
+                <option value="11">Blog</option>
+              </select>
+            </li>
           </ul>
         </nav>
-        
-        <a href="https://aroken.ru" class="header__btn">Contact us</a>
+
+        <a href=" https://aroken.ru" class="header__btn">Contact us</a>
 
         <button class="burger">
           <span></span>
@@ -42,7 +57,8 @@
               <h1 class="hero__top-title title">Immerse Yourself in Virtual Reality</h1>
               <p class="hero__top-text text">Experience Unforgettable Events in VR. Bring your events to life like never
                 before with our VR services</p>
-              <button class="hero__btn btn">DISCOVER MODE</button>
+              <button class="hero__btn btn">
+                DISCOVER MODE</button>
               <div class="hero__feedback">
                 <div class="hero__feedback-info">
                   <img src="./img/decor/hero/avatars.png" alt="" class="hero__feedback-info__img">
@@ -102,7 +118,7 @@
               <li class="about__item">Versatile Applications</li>
               <li class="about__item">Affordable and Accessible</li>
             </ul>
-            <a href="https://aroken.ru" class="btn">READ MORE</a>
+            <button href="https://aroken.ru" class="btn">READ MORE</button>
           </div>
         </div>
       </div>
@@ -283,7 +299,9 @@
           <p class="section-name">HOW TO GET STARTED</p>
           <h2 class="how__title title">Bringing Your Virtual Reality Dreams to Life</h2>
           <a class="how__video" data-fslightbox="how" href="./media/aroken-ru.mp4">
-            <img src="./img/video-prev.jpg" alt="" class="how__video-img">
+            <img src="./img/video-prev.jpg" alt="" class="how__video-img how__video-img--desktop">
+            <img src="./img/video-prev-mob.jpg" alt="" class="how__video-img how__video-img--mobile">
+
           </a>
           <a href="https://aroken.ru" class="btn">GET STARTED</a>
         </div>
@@ -399,7 +417,8 @@
                         <h3 class="slide__title title">Entertainment Goes Virtual: The Rise of VR Gaming</h3>
                       </div>
                       <a href="https://aroken.ru" class="slide__link">
-                        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
                           <path
                             d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                             fill="white" />
@@ -415,7 +434,8 @@
                         <h3 class="slide__title title">Entertainment Goes Virtual: The Rise of VR Gaming</h3>
                       </div>
                       <a href="https://aroken.ru" class="slide__link">
-                        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
                           <path
                             d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                             fill="white" />
@@ -431,7 +451,8 @@
                         <h3 class="slide__title title">Entertainment Goes Virtual: The Rise of VR Gaming</h3>
                       </div>
                       <a href="https://aroken.ru" class="slide__link">
-                        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
                           <path
                             d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                             fill="white" />
@@ -449,7 +470,8 @@
                         <h3 class="slide__title title">Entertainment Goes Virtual: The Rise of VR Gaming</h3>
                       </div>
                       <a href="https://aroken.ru" class="slide__link">
-                        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
                           <path
                             d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                             fill="white" />
@@ -472,7 +494,8 @@
                     <p class="recent__card-text">The Future of Education: How VR is Revolutionizing the Classroom</p>
                   </div>
                   <a href="https://aroken.ru" class="recent__card-link">
-                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                         fill="white" />
@@ -488,7 +511,8 @@
                     <p class="recent__card-text">Bringing Designs to Life: How VR is Changing Architecture</p>
                   </div>
                   <a href="https://aroken.ru" class="recent__card-link">
-                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                         fill="white" />
@@ -503,14 +527,15 @@
                     <h5 class="recent__card-title">VR Entertainment</h5>
                     <p class="recent__card-text">Making Events Memorable: The Power of VR for Corporate and Special
                       Occasions</p>
-                    </div>
-                    <a href="https://aroken.ru" class="recent__card-link">
-                      <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
-                          fill="white" />
-                      </svg>
-                    </a>
+                  </div>
+                  <a href="https://aroken.ru" class="recent__card-link">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
+                        fill="white" />
+                    </svg>
+                  </a>
                 </div>
 
                 <!-- ! Карточка 4 -->
@@ -521,7 +546,8 @@
                     <p class="recent__card-text">Exploring New Worlds: The Benefits of VR Travel</p>
                   </div>
                   <a href="https://aroken.ru" class="recent__card-link">
-                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                         fill="white" />
@@ -537,7 +563,8 @@
                     <p class="recent__card-text">The Future of Education: How VR is Revolutionizing the Classroom</p>
                   </div>
                   <a href="https://aroken.ru" class="recent__card-link">
-                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                         fill="white" />
@@ -553,7 +580,8 @@
                     <p class="recent__card-text">Bringing Designs to Life: How VR is Changing Architecture</p>
                   </div>
                   <a href="https://aroken.ru" class="recent__card-link">
-                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                         fill="white" />
@@ -568,14 +596,15 @@
                     <h5 class="recent__card-title">VR Entertainment</h5>
                     <p class="recent__card-text">Making Events Memorable: The Power of VR for Corporate and Special
                       Occasions</p>
-                    </div>
-                    <a href="https://aroken.ru" class="recent__card-link">
-                      <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
-                          fill="white" />
-                      </svg>
-                    </a>
+                  </div>
+                  <a href="https://aroken.ru" class="recent__card-link">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
+                        fill="white" />
+                    </svg>
+                  </a>
                 </div>
 
                 <!-- ! Карточка 8 -->
@@ -586,7 +615,8 @@
                     <p class="recent__card-text">Exploring New Worlds: The Benefits of VR Travel</p>
                   </div>
                   <a href="https://aroken.ru" class="recent__card-link">
-                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="arrow-svg" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.5501 0.75L9.90331 1.48167L15.5923 6.51061H0.666748V7.48718H15.5923L9.90331 12.5161L10.5501 13.2478L17.3334 7.25153V6.74626L10.5501 0.75Z"
                         fill="white" />
@@ -608,10 +638,14 @@
           <div class="footer__col">
             <a class="logo" href="#!"><img src="./img/icons/logo.png" alt=""></a>
             <div class="socials">
-              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/1.svg" alt="" class="socials__link-img"></a>
-              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/2.svg" alt="" class="socials__link-img"></a>
-              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/3.svg" alt="" class="socials__link-img"></a>
-              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/4.svg" alt="" class="socials__link-img"></a>
+              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/1.svg" alt=""
+                  class="socials__link-img"></a>
+              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/2.svg" alt=""
+                  class="socials__link-img"></a>
+              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/3.svg" alt=""
+                  class="socials__link-img"></a>
+              <a href="https://aroken.ru" class="socials__link"><img src="./img/icons/social/4.svg" alt=""
+                  class="socials__link-img"></a>
             </div>
           </div>
           <div class="footer__col">
@@ -638,9 +672,11 @@
             <h4 class="footer__title">Need Help?</h4>
             <ul class="footer__list">
               <li class="footer__list-item footer__list-item--icon">
-                <img src="./img/icons/address/1.svg" alt="">Tanjung Sari Street no.48, Pontianak City</li>
+                <img src="./img/icons/address/1.svg" alt="">Tanjung Sari Street no.48, Pontianak City
+              </li>
               <li class="footer__list-item footer__list-item--icon">
-                <img src="./img/icons/address/2.svg" alt="">Support@VRNas.com</li>
+                <img src="./img/icons/address/2.svg" alt=""><a href="mailto:Support@VRNas.com">Support@VRNas.com</a>
+              </li>
               <li class="footer__list-item footer__list-item--icon">
                 <img src="./img/icons/address/3.svg" alt=""><a href="tel:123456789">+123 456 7890</a>
               </li>
