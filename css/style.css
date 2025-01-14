@@ -1368,6 +1368,14 @@ body {
   .service {
     margin-bottom: 130px;
   }
+
+  .hero__top-title {
+    font-size: 48px !important;
+  }
+  .title {
+    font-size: 32px;
+  }
+  
 }
 
 @media (max-width: 700px) {
