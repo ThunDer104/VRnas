@@ -70,17 +70,12 @@
 
 
 .header__list li,
-.footer__list-item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 125%;
-  color: #222;
-  margin-bottom: 20px;
+.footer__list-item a{
   position: relative;
 }
 
 .header__list li::after,
-.footer__list-item::after {
+.footer__list-item a::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -94,7 +89,7 @@
 }
 
 .header__list li:hover:after,
-.footer__list-item:hover:after {
+.footer__list-item a:hover:after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -102,7 +97,6 @@
 .footer__list-item {
   display: block;
 }
-
 .header__logo {
   transition: all 0.3s;
 }
