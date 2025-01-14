@@ -342,7 +342,7 @@ body {
   filter: blur(210px);
   top: 0;
   right: -50px;
-
+  z-index: -1000;
 }
 
 .service__desc {
