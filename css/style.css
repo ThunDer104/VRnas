@@ -98,6 +98,8 @@ body {
 
 .header__item {
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .header__item-link {
@@ -116,6 +118,68 @@ body {
 }
 
 /** -- Галочки -- */
+
+.header__item {}
+
+.header__item--tick {}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-btn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-weight: 300;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1b011b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  bottom: -255%;
+  border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.308) 0%, rgba(255, 255, 255, 0) 100%) 1;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.dropdown-content a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-gradient);
+  z-index: -1;
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+  transform: scaleX(0);
+}
+
+.dropdown-content a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 .header__item--tick {
   position: relative;
   display: flex;
@@ -130,8 +194,8 @@ body {
 .header__item--tick::before {
   content: url(../img/icons/tick.svg);
   position: absolute;
-  right: -12px;
-  top: -2px;
+  right: 0px;
+  top: 14px;
 }
 
 
@@ -148,6 +212,7 @@ body {
   top: 157px;
   z-index: -1;
 }
+
 .hero__top-inner {
   display: flex;
   align-items: center;
@@ -342,7 +407,7 @@ body {
   filter: blur(210px);
   top: 0;
   right: -50px;
-  z-index: -1000;
+
 }
 
 .service__desc {
@@ -497,7 +562,6 @@ body {
   font-size: 20px;
   color: #fff;
   margin-bottom: 12px;
-  text-align: left;
 }
 
 .accordion-list__control-icon img {
@@ -605,6 +669,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .testimonial__title {
   margin-bottom: 144px;
 }
@@ -778,6 +843,7 @@ body {
 .arrow-svg {
   margin-top: 2px;
 }
+
 .article__head {
   display: flex;
   justify-content: space-between;
@@ -1190,7 +1256,6 @@ body {
   .hero__feedback-btn {
     position: absolute;
     top: 200%;
-    z-index: 1;
   }
 
   .about__inner {
@@ -1333,15 +1398,17 @@ body {
     display: block;
     grid-area: nav;
   }
-  
+
   .header__list {
     flex-direction: column;
     gap: 20px;
   }
+
   .header__item {
     font-size: 20px;
-    
+
   }
+
   .header__item--tick::before {
     color: #000;
     right: 20px;
@@ -1374,10 +1441,10 @@ body {
   .hero__top-title {
     font-size: 48px !important;
   }
+
   .title {
     font-size: 32px;
   }
-  
 }
 
 @media (max-width: 700px) {
@@ -1422,7 +1489,7 @@ body {
 
 }
 
-@media (max-width: 510px) {
+@media (max-width: 500px) {
   .service__cards {
     grid-template-columns: 1fr;
   }
