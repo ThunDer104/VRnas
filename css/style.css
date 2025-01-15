@@ -1260,6 +1260,7 @@ body {
   .hero__feedback-btn {
     position: absolute;
     top: 200%;
+    z-index: 1;
   }
 
   .about__inner {
